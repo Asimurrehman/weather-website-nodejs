@@ -1,0 +1,89 @@
+body {
+    color: #333333 ;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 16px;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: whitesmoke
+
+
+}
+
+.main-content {
+    flex-grow: 1
+}
+
+footer{
+    color: #888888;
+    border-top: 2px solid #eeeeee;
+    margin-top: 16px;
+    padding: 16px 0;
+}
+
+header{
+    margin-top: 16px;
+    margin-bottom: 48px;
+    /* border-bottom: 2px solid #eeeeee; */
+    
+ 
+    
+}
+
+h1 {
+    font-size: 64px;
+    margin-bottom: 20px;
+  
+}
+
+
+
+header a {
+    
+    margin-right: 16px;
+    text-decoration: none;
+    background: #333333;
+    border-radius: 5px;
+    color:white;
+    padding: 10px
+}
+
+.portrait {
+    width: 250px;
+}
+
+input{
+    border: 2px solid lightgray;
+    
+    padding: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    border-radius: 5px
+
+}
+
+button{
+    border: #333333;
+    cursor: pointer;
+    padding: 8px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    background: #333333;
+    border-radius: 5px;
+    color:white;
+
+}
+
+#message-1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px
+}
+
+#message-2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px
+}
